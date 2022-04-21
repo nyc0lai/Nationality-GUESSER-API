@@ -14,7 +14,6 @@ form.addEventListener('submit', (e) => {
     xhr.onload = ()=>{
         let response = xhr.responseText
         let data = JSON.parse(response)
-        console.log(data.country);
         if(data.country.length > 0) { //verification null result
             let nationality = data.country[0].country_id
             output.innerHTML = `${name} you are most probably from <strong>${nationality}</strong>`

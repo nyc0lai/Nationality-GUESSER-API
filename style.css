@@ -7,6 +7,7 @@ body{
 }
 
 #form-name{
+    min-width: 175px;
     width: 80%;
     border: 1px solid #345;
     padding: 1em;
@@ -22,6 +23,7 @@ body{
 #form-name #input {
     padding: .5em;
     font-size: 150%;
+    min-width: 155px;
     width: 100%;
     box-sizing: border-box;
     outline: none;
@@ -35,7 +37,7 @@ body{
 }
 
 #form-name #output {
-    height: 40px;
+    min-height: 40px;
     font-size: 200%;
     pad: 1em;
     /* text-align: left; */
